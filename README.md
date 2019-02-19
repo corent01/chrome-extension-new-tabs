@@ -1,4 +1,4 @@
-# chrome-extension-new-tabs <Beta v2.0>
+# chrome-extension-new-tabs Beta v2.0
 
 1. Download and Unzip 
 
