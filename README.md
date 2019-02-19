@@ -8,4 +8,4 @@
 
 4. Click on "Load unpacked"and chose the folder of the extension 
 
-5. Enjoy !
+5. Enjoy ! (Not finished)
