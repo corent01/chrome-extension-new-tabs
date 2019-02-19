@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="./scriptM.js"></script>
+  <link rel="stylesheet" href="./styleGS.css" />
+  <link rel="stylesheet" href="./styleM.css" />
+  <title>Welcome in Doug's extension !</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body> 
+  <div id="googlesearch">
+    <h3 class="titre"><a href="https://www.google.com">Google</a></h3>
+    <form method="get" action="https://www.google.com/search">
+      <div class="" id="div">
+        <label for="q" class="mat-label">What are you looking for ?</label>
+        <input class="mat-input" type="text" name="q" placeholder="" onEnter="send()" autocomplete="off" maxlength="60"
+          onUpdate="recupValeur()" id="valeur">
+        <label for="search" class="fa fa-search"></label><input class="" type="submit" id="search" />
+      </div>
+    </form>
+  </div>
+
+  <div class="CWA-welcome-chrome-ext-overlay">
+    <div class="CWA-welcome-chrome-ext-top">
+      <div class="CWA-welcome-chrome-ext-left">
+        <!--<div>
+          Interest: <span class="CWA-welcome-chrome-ext-interest-text"></span>
+        </div>-->
+        <!--<div>
+              Photo by: <a class="CWA-welcome-chrome-ext-photo-by" href="#" target="_blank"></a>
+            </div>-->
+      </div>
+      <div class="CWA-welcome-chrome-ext-right">
+        <div class="CWA-welcome-chrome-ext-date"></div>
+      </div>
+    </div>
+    <h1 class="CWA-welcome-chrome-ext-time"></h1>
+    <h2 class="CWA-welcome-chrome-ext-greeting"></h2>
+      <input class="CWA-welcome-chrome-ext-user-name" type="text">
+      <input class="CWA-welcome-chrome-ext-interest" type="text">
+      <div class="CWA-welcome-chrome-ext-change-btn">
+        What's your interest
+      </div>
+  </div>
+  <script src="./scriptGS.js"></script>
+  
+</body>
+
+</html>

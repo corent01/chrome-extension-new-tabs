@@ -1,0 +1,10 @@
+{
+   "name": "Welcome new tabs extension by Doug(cwa)",
+   "version": "1.0",
+   "description": "Extension for new tabs, welcom dashboard, Google search and add you bookmarks. Enjoy. ",
+   "chrome_url_overrides" : {
+      "newtab": "index.html"
+    },
+   "manifest_version": 2,
+   "content_security_policy": "script-src 'self'  https://code.jquery.com; object-src 'self'"
+ }
